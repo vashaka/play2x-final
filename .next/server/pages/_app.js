@@ -1,445 +1,86 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 560:
+/***/ "./components/Header.tsx":
+/*!*******************************!*\
+  !*** ./components/Header.tsx ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "I": () => (/* binding */ AppContext),
-/* harmony export */   "i": () => (/* binding */ AppContextProvider)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-
-const AppContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});
-function AppContextProvider({ children  }) {
-    const [openAuth, setOpenAuth] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(AppContext.Provider, {
-        value: {
-            openAuth,
-            setOpenAuth
-        },
-        children: children
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _context_appContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/appContext */ \"./context/appContext.tsx\");\n\n\n\nconst Header = ()=>{\n    const { setOpenAuth  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_context_appContext__WEBPACK_IMPORTED_MODULE_2__.AppContext);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"p-4 flex justify-between items-center border-b border-[hsl(222,17%,18%)]\",\n        style: {\n            whiteSpace: \"nowrap\"\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex items-center\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                        className: \"text-3xl text-white\",\n                        children: [\n                            \"play \",\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"bg-[#4180f1] rounded-md px-1 py-0\",\n                                children: \"2x\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                                lineNumber: 16,\n                                columnNumber: 16\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"flex items-center px-2 text-sm\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"px-2 text-[#828f9a]\",\n                                children: \"Games\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"px-2 text-[#828f9a]\",\n                                children: \"Referalls\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"px-2 text-[#828f9a]\",\n                                children: \"Bonuses\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                                lineNumber: 21,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"px-2 text-[#828f9a]\",\n                                children: \"Vip Club\"\n                            }, void 0, false, {\n                                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                                lineNumber: 22,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                        onClick: ()=>setOpenAuth(true),\n                        className: \"mr-2 text-[#828f9a] bg-[#20242d] px-6 py-2 rounded-sm border text-sm border-[hsla(0,0%,100%,.08)]\",\n                        children: \"Log in\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                        onClick: ()=>setOpenAuth(true),\n                        className: \"bg-[#4180f1] px-6 py-2 rounded-sm text-sm text-white border-[hsla(0,0%,100%,.08)]\",\n                        children: \"Sign up\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                        lineNumber: 32,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/dadu/Desktop/client/components/Header.tsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0hlYWRlci50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUEwQztBQUNTO0FBRW5ELE1BQU1HLFNBQVMsSUFBTTtJQUNuQixNQUFNLEVBQUVDLFlBQVcsRUFBRSxHQUFRSCxpREFBVUEsQ0FBQ0MsMkRBQVVBO0lBRWxELHFCQUNFLDhEQUFDRztRQUNDQyxXQUFVO1FBQ1ZDLE9BQU87WUFDTEMsWUFBWTtRQUNkOzswQkFFQSw4REFBQ0g7Z0JBQUlDLFdBQVU7O2tDQUNiLDhEQUFDRzt3QkFBR0gsV0FBVTs7NEJBQXNCOzBDQUM3Qiw4REFBQ0k7Z0NBQUtKLFdBQVU7MENBQW9DOzs7Ozs7Ozs7Ozs7a0NBRTNELDhEQUFDRDt3QkFBSUMsV0FBVTs7MENBQ2IsOERBQUNLO2dDQUFFTCxXQUFVOzBDQUFzQjs7Ozs7OzBDQUNuQyw4REFBQ0s7Z0NBQUVMLFdBQVU7MENBQXNCOzs7Ozs7MENBQ25DLDhEQUFDSztnQ0FBRUwsV0FBVTswQ0FBc0I7Ozs7OzswQ0FDbkMsOERBQUNLO2dDQUFFTCxXQUFVOzBDQUFzQjs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBCQUd2Qyw4REFBQ0Q7Z0JBQUlDLFdBQVU7O2tDQUNiLDhEQUFDTTt3QkFDQ0MsU0FBUyxJQUFNVCxZQUFZLElBQUk7d0JBQy9CRSxXQUFVO2tDQUNYOzs7Ozs7a0NBR0QsOERBQUNNO3dCQUNDQyxTQUFTLElBQU1ULFlBQVksSUFBSTt3QkFDL0JFLFdBQVU7a0NBQ1g7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU1UO0FBRUEsaUVBQWVILE1BQU1BLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wbGF5MngvLi9jb21wb25lbnRzL0hlYWRlci50c3g/MDM2OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlQ29udGV4dCB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgQXBwQ29udGV4dCB9IGZyb20gXCIuLi9jb250ZXh0L2FwcENvbnRleHRcIjtcblxuY29uc3QgSGVhZGVyID0gKCkgPT4ge1xuICBjb25zdCB7IHNldE9wZW5BdXRoIH06IGFueSA9IHVzZUNvbnRleHQoQXBwQ29udGV4dCk7XG5cbiAgcmV0dXJuIChcbiAgICA8ZGl2XG4gICAgICBjbGFzc05hbWU9XCJwLTQgZmxleCBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtY2VudGVyIGJvcmRlci1iIGJvcmRlci1baHNsKDIyMiwxNyUsMTglKV1cIlxuICAgICAgc3R5bGU9e3tcbiAgICAgICAgd2hpdGVTcGFjZTogXCJub3dyYXBcIixcbiAgICAgIH19XG4gICAgPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwidGV4dC0zeGwgdGV4dC13aGl0ZVwiPlxuICAgICAgICAgIHBsYXkgPHNwYW4gY2xhc3NOYW1lPVwiYmctWyM0MTgwZjFdIHJvdW5kZWQtbWQgcHgtMSBweS0wXCI+Mng8L3NwYW4+XG4gICAgICAgIDwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgcHgtMiB0ZXh0LXNtXCI+XG4gICAgICAgICAgPHAgY2xhc3NOYW1lPVwicHgtMiB0ZXh0LVsjODI4ZjlhXVwiPkdhbWVzPC9wPlxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInB4LTIgdGV4dC1bIzgyOGY5YV1cIj5SZWZlcmFsbHM8L3A+XG4gICAgICAgICAgPHAgY2xhc3NOYW1lPVwicHgtMiB0ZXh0LVsjODI4ZjlhXVwiPkJvbnVzZXM8L3A+XG4gICAgICAgICAgPHAgY2xhc3NOYW1lPVwicHgtMiB0ZXh0LVsjODI4ZjlhXVwiPlZpcCBDbHViPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJcIj5cbiAgICAgICAgPGJ1dHRvblxuICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW5BdXRoKHRydWUpfVxuICAgICAgICAgIGNsYXNzTmFtZT1cIm1yLTIgdGV4dC1bIzgyOGY5YV0gYmctWyMyMDI0MmRdIHB4LTYgcHktMiByb3VuZGVkLXNtIGJvcmRlciB0ZXh0LXNtIGJvcmRlci1baHNsYSgwLDAlLDEwMCUsLjA4KV1cIlxuICAgICAgICA+XG4gICAgICAgICAgTG9nIGluXG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbkF1dGgodHJ1ZSl9XG4gICAgICAgICAgY2xhc3NOYW1lPVwiYmctWyM0MTgwZjFdIHB4LTYgcHktMiByb3VuZGVkLXNtIHRleHQtc20gdGV4dC13aGl0ZSBib3JkZXItW2hzbGEoMCwwJSwxMDAlLC4wOCldXCJcbiAgICAgICAgPlxuICAgICAgICAgIFNpZ24gdXBcbiAgICAgICAgPC9idXR0b24+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjtcbiJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZUNvbnRleHQiLCJBcHBDb250ZXh0IiwiSGVhZGVyIiwic2V0T3BlbkF1dGgiLCJkaXYiLCJjbGFzc05hbWUiLCJzdHlsZSIsIndoaXRlU3BhY2UiLCJoMSIsInNwYW4iLCJwIiwiYnV0dG9uIiwib25DbGljayJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Header.tsx\n");
 
 /***/ }),
 
-/***/ 579:
+/***/ "./components/Layout.tsx":
+/*!*******************************!*\
+  !*** ./components/Layout.tsx ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ App)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(764);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-// EXTERNAL MODULE: ./context/appContext.tsx
-var appContext = __webpack_require__(560);
-;// CONCATENATED MODULE: ./components/Header.tsx
-
-
-
-const Header = ()=>{
-    const { setOpenAuth  } = (0,external_react_.useContext)(appContext/* AppContext */.I);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "p-4 flex justify-between items-center border-b border-[hsl(222,17%,18%)]",
-        style: {
-            whiteSpace: "nowrap"
-        },
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                        className: "text-3xl text-white",
-                        children: [
-                            "play ",
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: "bg-[#4180f1] rounded-md px-1 py-0",
-                                children: "2x"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex items-center px-2 text-sm",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "px-2 text-[#828f9a]",
-                                children: "Games"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "px-2 text-[#828f9a]",
-                                children: "Referalls"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "px-2 text-[#828f9a]",
-                                children: "Bonuses"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "px-2 text-[#828f9a]",
-                                children: "Vip Club"
-                            })
-                        ]
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                        onClick: ()=>setOpenAuth(true),
-                        className: "mr-2 text-[#828f9a] bg-[#20242d] px-6 py-2 rounded-sm border text-sm border-[hsla(0,0%,100%,.08)]",
-                        children: "Log in"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                        onClick: ()=>setOpenAuth(true),
-                        className: "bg-[#4180f1] px-6 py-2 rounded-sm text-sm text-white border-[hsla(0,0%,100%,.08)]",
-                        children: "Sign up"
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const components_Header = (Header);
-
-;// CONCATENATED MODULE: ./components/Navbar.tsx
-
-
-const Navbar = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "hidden md:flex fixed bg-[hsl(222,17%,13%)] p-4 h-[88%] w-auto m-4 rounded-lg",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    fill: "#828f9a",
-                    viewBox: "0 0 24 24",
-                    strokeWidth: 1.5,
-                    stroke: "currentColor",
-                    className: "w-6 h-6 text-black mt-4",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        d: "M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
-                    })
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const components_Navbar = (Navbar);
-
-;// CONCATENATED MODULE: ./components/Layout.tsx
-
-
-
-
-const Layout = ({ children  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Header, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Navbar, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                className: "md:mx-20 py-4 w-full md:w-[90%]",
-                children: children
-            })
-        ]
-    });
-};
-/* harmony default export */ const components_Layout = (Layout);
-
-;// CONCATENATED MODULE: ./pages/_app.tsx
-
-
-
-
-function App({ Component , pageProps  }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx(appContext/* AppContextProvider */.i, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(components_Layout, {
-            children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        })
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ \"./components/Header.tsx\");\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ \"./components/Navbar.tsx\");\n\n\n\n\nconst Layout = ({ children  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/dadu/Desktop/client/components/Layout.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Navbar__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/dadu/Desktop/client/components/Layout.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: \"md:mx-20 py-4 w-full md:w-[90%]\",\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/dadu/Desktop/client/components/Layout.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/dadu/Desktop/client/components/Layout.tsx\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0xheW91dC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBMEI7QUFDSTtBQUNBO0FBRTlCLE1BQU1HLFNBQVMsQ0FBQyxFQUFFQyxTQUFRLEVBQU8sR0FBSztJQUNwQyxxQkFDRSw4REFBQ0M7OzBCQUNDLDhEQUFDSiwrQ0FBTUE7Ozs7OzBCQUNQLDhEQUFDQywrQ0FBTUE7Ozs7OzBCQUNQLDhEQUFDSTtnQkFBS0MsV0FBVTswQkFBbUNIOzs7Ozs7Ozs7Ozs7QUFHekQ7QUFFQSxpRUFBZUQsTUFBTUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BsYXkyeC8uL2NvbXBvbmVudHMvTGF5b3V0LnRzeD8zYzhmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIi4vSGVhZGVyXCI7XG5pbXBvcnQgTmF2YmFyIGZyb20gXCIuL05hdmJhclwiO1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiB9OiBhbnkpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPEhlYWRlciAvPlxuICAgICAgPE5hdmJhciAvPlxuICAgICAgPG1haW4gY2xhc3NOYW1lPVwibWQ6bXgtMjAgcHktNCB3LWZ1bGwgbWQ6dy1bOTAlXVwiPntjaGlsZHJlbn08L21haW4+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJIZWFkZXIiLCJOYXZiYXIiLCJMYXlvdXQiLCJjaGlsZHJlbiIsImRpdiIsIm1haW4iLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Layout.tsx\n");
 
 /***/ }),
 
-/***/ 764:
+/***/ "./components/Navbar.tsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.tsx ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Navbar = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"hidden md:flex fixed bg-[hsl(222,17%,13%)] p-4 h-[88%] w-auto m-4 rounded-lg\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 30,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 22,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 45,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 37,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 60,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 52,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 75,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 67,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 90,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 82,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 105,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 97,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 120,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 112,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 135,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 127,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 150,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 142,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 165,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 157,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 180,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 172,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 195,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 187,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 210,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 202,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 225,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 217,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 240,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 232,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 255,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 247,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 270,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 262,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 285,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 277,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"svg\", {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    fill: \"#828f9a\",\n                    viewBox: \"0 0 24 24\",\n                    strokeWidth: 1.5,\n                    stroke: \"currentColor\",\n                    className: \"w-6 h-6 text-black mt-4\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"path\", {\n                        strokeLinecap: \"round\",\n                        strokeLinejoin: \"round\",\n                        d: \"M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z\"\n                    }, void 0, false, {\n                        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                        lineNumber: 300,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n                    lineNumber: 292,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/dadu/Desktop/client/components/Navbar.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL05hdmJhci50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTBCO0FBRTFCLE1BQU1DLFNBQVMsSUFBTTtJQUNuQixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFDYiw0RUFBQ0Q7OzhCQUNDLDhEQUFDRTtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7OEJBSU4sOERBQUNUO29CQUNDQyxPQUFNO29CQUNOQyxNQUFLO29CQUNMQyxTQUFRO29CQUNSQyxhQUFhO29CQUNiQyxRQUFPO29CQUNQTixXQUFVOzhCQUVWLDRFQUFDTzt3QkFDQ0MsZUFBYzt3QkFDZEMsZ0JBQWU7d0JBQ2ZDLEdBQUU7Ozs7Ozs7Ozs7OzhCQUlOLDhEQUFDVDtvQkFDQ0MsT0FBTTtvQkFDTkMsTUFBSztvQkFDTEMsU0FBUTtvQkFDUkMsYUFBYTtvQkFDYkMsUUFBTztvQkFDUE4sV0FBVTs4QkFFViw0RUFBQ087d0JBQ0NDLGVBQWM7d0JBQ2RDLGdCQUFlO3dCQUNmQyxHQUFFOzs7Ozs7Ozs7Ozs4QkFJTiw4REFBQ1Q7b0JBQ0NDLE9BQU07b0JBQ05DLE1BQUs7b0JBQ0xDLFNBQVE7b0JBQ1JDLGFBQWE7b0JBQ2JDLFFBQU87b0JBQ1BOLFdBQVU7OEJBRVYsNEVBQUNPO3dCQUNDQyxlQUFjO3dCQUNkQyxnQkFBZTt3QkFDZkMsR0FBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU1kO0FBRUEsaUVBQWVaLE1BQU1BLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wbGF5MngvLi9jb21wb25lbnRzL05hdmJhci50c3g/MWI4MyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IE5hdmJhciA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImhpZGRlbiBtZDpmbGV4IGZpeGVkIGJnLVtoc2woMjIyLDE3JSwxMyUpXSBwLTQgaC1bODglXSB3LWF1dG8gbS00IHJvdW5kZWQtbGdcIj5cbiAgICAgIDxkaXY+XG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFja1wiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG5cbiAgICAgICAgPHN2Z1xuICAgICAgICAgIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIlxuICAgICAgICAgIGZpbGw9XCIjODI4ZjlhXCJcbiAgICAgICAgICB2aWV3Qm94PVwiMCAwIDI0IDI0XCJcbiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fVxuICAgICAgICAgIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiXG4gICAgICAgICAgY2xhc3NOYW1lPVwidy02IGgtNiB0ZXh0LWJsYWNrIG10LTRcIlxuICAgICAgICA+XG4gICAgICAgICAgPHBhdGhcbiAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiXG4gICAgICAgICAgICBzdHJva2VMaW5lam9pbj1cInJvdW5kXCJcbiAgICAgICAgICAgIGQ9XCJNMTIgMjAuMjVjNC45NyAwIDktMy42OTQgOS04LjI1cy00LjAzLTguMjUtOS04LjI1UzMgNy40NDQgMyAxMmMwIDIuMTA0Ljg1OSA0LjAyMyAyLjI3MyA1LjQ4LjQzMi40NDcuNzQgMS4wNC41ODYgMS42NDFhNC40ODMgNC40ODMgMCAwMS0uOTIzIDEuNzg1QTUuOTY5IDUuOTY5IDAgMDA2IDIxYzEuMjgyIDAgMi40Ny0uNDAyIDMuNDQ1LTEuMDg3LjgxLjIyIDEuNjY4LjMzNyAyLjU1NS4zMzd6XCJcbiAgICAgICAgICAvPlxuICAgICAgICA8L3N2Zz5cblxuICAgICAgICA8c3ZnXG4gICAgICAgICAgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiXG4gICAgICAgICAgZmlsbD1cIiM4MjhmOWFcIlxuICAgICAgICAgIHZpZXdCb3g9XCIwIDAgMjQgMjRcIlxuICAgICAgICAgIHN0cm9rZVdpZHRoPXsxLjV9XG4gICAgICAgICAgc3Ryb2tlPVwiY3VycmVudENvbG9yXCJcbiAgICAgICAgICBjbGFzc05hbWU9XCJ3LTYgaC02IHRleHQtYmxhY2sgbXQtNFwiXG4gICAgICAgID5cbiAgICAgICAgICA8cGF0aFxuICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCJcbiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIlxuICAgICAgICAgICAgZD1cIk0xMiAyMC4yNWM0Ljk3IDAgOS0zLjY5NCA5LTguMjVzLTQuMDMtOC4yNS05LTguMjVTMyA3LjQ0NCAzIDEyYzAgMi4xMDQuODU5IDQuMDIzIDIuMjczIDUuNDguNDMyLjQ0Ny43NCAxLjA0LjU4NiAxLjY0MWE0LjQ4MyA0LjQ4MyAwIDAxLS45MjMgMS43ODVBNS45NjkgNS45NjkgMCAwMDYgMjFjMS4yODIgMCAyLjQ3LS40MDIgMy40NDUtMS4wODcuODEuMjIgMS42NjguMzM3IDIuNTU1LjMzN3pcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvc3ZnPlxuXG4gICAgICAgIDxzdmdcbiAgICAgICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcbiAgICAgICAgICBmaWxsPVwiIzgyOGY5YVwiXG4gICAgICAgICAgdmlld0JveD1cIjAgMCAyNCAyNFwiXG4gICAgICAgICAgc3Ryb2tlV2lkdGg9ezEuNX1cbiAgICAgICAgICBzdHJva2U9XCJjdXJyZW50Q29sb3JcIlxuICAgICAgICAgIGNsYXNzTmFtZT1cInctNiBoLTYgdGV4dC1ibGFjayBtdC00XCJcbiAgICAgICAgPlxuICAgICAgICAgIDxwYXRoXG4gICAgICAgICAgICBzdHJva2VMaW5lY2FwPVwicm91bmRcIlxuICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiXG4gICAgICAgICAgICBkPVwiTTEyIDIwLjI1YzQuOTcgMCA5LTMuNjk0IDktOC4yNXMtNC4wMy04LjI1LTktOC4yNVMzIDcuNDQ0IDMgMTJjMCAyLjEwNC44NTkgNC4wMjMgMi4yNzMgNS40OC40MzIuNDQ3Ljc0IDEuMDQuNTg2IDEuNjQxYTQuNDgzIDQuNDgzIDAgMDEtLjkyMyAxLjc4NUE1Ljk2OSA1Ljk2OSAwIDAwNiAyMWMxLjI4MiAwIDIuNDctLjQwMiAzLjQ0NS0xLjA4Ny44MS4yMiAxLjY2OC4zMzcgMi41NTUuMzM3elwiXG4gICAgICAgICAgLz5cbiAgICAgICAgPC9zdmc+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE5hdmJhcjtcbiJdLCJuYW1lcyI6WyJSZWFjdCIsIk5hdmJhciIsImRpdiIsImNsYXNzTmFtZSIsInN2ZyIsInhtbG5zIiwiZmlsbCIsInZpZXdCb3giLCJzdHJva2VXaWR0aCIsInN0cm9rZSIsInBhdGgiLCJzdHJva2VMaW5lY2FwIiwic3Ryb2tlTGluZWpvaW4iLCJkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Navbar.tsx\n");
+
+/***/ }),
+
+/***/ "./context/appContext.tsx":
+/*!********************************!*\
+  !*** ./context/appContext.tsx ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"AppContext\": () => (/* binding */ AppContext),\n/* harmony export */   \"AppContextProvider\": () => (/* binding */ AppContextProvider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst AppContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)({});\nfunction AppContextProvider({ children  }) {\n    const [openAuth, setOpenAuth] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(AppContext.Provider, {\n        value: {\n            openAuth,\n            setOpenAuth\n        },\n        children: children\n    }, void 0, false, {\n        fileName: \"/Users/dadu/Desktop/client/context/appContext.tsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0L2FwcENvbnRleHQudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBMkQ7QUFHcEQsTUFBTUUsMkJBQWFGLG9EQUFhQSxDQUFDLENBQUMsR0FBRztBQUVyQyxTQUFTRyxtQkFBbUIsRUFBRUMsU0FBUSxFQUFPLEVBQUU7SUFDcEQsTUFBTSxDQUFDQyxVQUFVQyxZQUFZLEdBQUdMLCtDQUFRQSxDQUFDLEtBQUs7SUFFOUMscUJBQ0UsOERBQUNDLFdBQVdLLFFBQVE7UUFBQ0MsT0FBTztZQUFFSDtZQUFVQztRQUFZO2tCQUNqREY7Ozs7OztBQUdQLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wbGF5MngvLi9jb250ZXh0L2FwcENvbnRleHQudHN4PzQ2OGYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQ29udGV4dCwgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IGF4aW9zIGZyb20gXCJheGlvc1wiO1xuXG5leHBvcnQgY29uc3QgQXBwQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQoe30pO1xuXG5leHBvcnQgZnVuY3Rpb24gQXBwQ29udGV4dFByb3ZpZGVyKHsgY2hpbGRyZW4gfTogYW55KSB7XG4gIGNvbnN0IFtvcGVuQXV0aCwgc2V0T3BlbkF1dGhdID0gdXNlU3RhdGUoZmFsc2UpO1xuXG4gIHJldHVybiAoXG4gICAgPEFwcENvbnRleHQuUHJvdmlkZXIgdmFsdWU9e3sgb3BlbkF1dGgsIHNldE9wZW5BdXRoIH19PlxuICAgICAge2NoaWxkcmVufVxuICAgIDwvQXBwQ29udGV4dC5Qcm92aWRlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJjcmVhdGVDb250ZXh0IiwidXNlU3RhdGUiLCJBcHBDb250ZXh0IiwiQXBwQ29udGV4dFByb3ZpZGVyIiwiY2hpbGRyZW4iLCJvcGVuQXV0aCIsInNldE9wZW5BdXRoIiwiUHJvdmlkZXIiLCJ2YWx1ZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./context/appContext.tsx\n");
+
+/***/ }),
+
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ \"./components/Layout.tsx\");\n/* harmony import */ var _context_appContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/context/appContext */ \"./context/appContext.tsx\");\n\n\n\n\nfunction App({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_context_appContext__WEBPACK_IMPORTED_MODULE_3__.AppContextProvider, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/Users/dadu/Desktop/client/pages/_app.tsx\",\n                lineNumber: 10,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/dadu/Desktop/client/pages/_app.tsx\",\n            lineNumber: 9,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/dadu/Desktop/client/pages/_app.tsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUE4QjtBQUVZO0FBQ2dCO0FBRTNDLFNBQVNFLElBQUksRUFBRUMsVUFBUyxFQUFFQyxVQUFTLEVBQVksRUFBRTtJQUM5RCxxQkFDRSw4REFBQ0gsbUVBQWtCQTtrQkFDakIsNEVBQUNELDBEQUFNQTtzQkFDTCw0RUFBQ0c7Z0JBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7Ozs7OztBQUloQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcGxheTJ4Ly4vcGFnZXMvX2FwcC50c3g/MmZiZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCJAL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xuaW1wb3J0IHR5cGUgeyBBcHBQcm9wcyB9IGZyb20gXCJuZXh0L2FwcFwiO1xuaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9MYXlvdXRcIjtcbmltcG9ydCB7IEFwcENvbnRleHRQcm92aWRlciB9IGZyb20gXCJAL2NvbnRleHQvYXBwQ29udGV4dFwiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9OiBBcHBQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxBcHBDb250ZXh0UHJvdmlkZXI+XG4gICAgICA8TGF5b3V0PlxuICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgICA8L0xheW91dD5cbiAgICA8L0FwcENvbnRleHRQcm92aWRlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJMYXlvdXQiLCJBcHBDb250ZXh0UHJvdmlkZXIiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -447,11 +88,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -462,7 +106,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(579));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
 module.exports = __webpack_exports__;
 
 })();
