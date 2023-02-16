@@ -5,6 +5,7 @@ const NotFound = () => {
   const router = useRouter();
   useEffect(() => {
     router.push("/");
+    console.log("/");
   }, [router]);
   return (
     <div>
